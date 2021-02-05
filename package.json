@@ -2,13 +2,13 @@
 	"name": "iu",
 	"displayName": "iu 2021",
 	"description": "A two-color-ball-inspired colour theme to satisfy your dreams",
-	"version": "0.1.2",
+	"version": "0.1.4",
 	"author": "yajing pang",
 	"publisher": "Carrie999",
 	"icon": "icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Carrie999/twoColorBall"
+		"url": "https://github.com/Carrie999/iu"
 	},
 	"engines": {
 		"vscode": "^1.33.0"
