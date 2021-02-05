@@ -1,22 +1,22 @@
 {
-	"name": "cyberpunk-2020",
-	"displayName": "Cyberpunk 2020",
-	"description": "A cyberpunk-inspired colour theme to satisfy your neon dreams",
-	"version": "0.1.4",
+	"name": "iu.2021",
+	"displayName": "iu 2021",
+	"description": "A two-color-ball-inspired colour theme to satisfy your dreams",
+	"version": "0.1.0",
 	"author": "yajing pang",
 	"publisher": "Carrie999",
 	"icon": "icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Carrie999/cyberpunk"
+		"url": "https://github.com/Carrie999/twoColorBall"
 	},
 	"engines": {
 		"vscode": "^1.33.0"
 	},
 	"keywords": [
-		"retro",
-		"80s",
-		"cyberpunk"
+		"spring",
+		"soft",
+		"iu"
 	],
 	"categories": [
 		"Themes"
@@ -30,37 +30,37 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Cyberpunk",
+				"label": "iu",
 				"uiTheme": "vs-dark",
 				"path": "./themes/synthwave-color-theme.json"
 			}
 		],
 		"commands": [
 			{
-				"command": "cyberpunk.enableNeon",
+				"command": "iu.enableNeon",
 				"title": "Synthwave '84: Enable Neon Dreams"
 			},
 			{
-				"command": "cyberpunk.disableNeon",
-				"title": "cyberpunk: Disable Neon Dreams"
+				"command": "iu.disableNeon",
+				"title": "iu: Disable Neon Dreams"
 			},
 			{
-				"command": "cyberpunk.whatsNew",
-				"title": "cyberpunk: What's New"
+				"command": "iu.whatsNew",
+				"title": "iu: What's New"
 			}
 		],
 		"configuration": {
-			"title": "Cyberpunk 2020",
+			"title": "iu 2020",
 			"properties": {
-				"synthwave84.brightness": {
+				"iu.brightness": {
 					"type": "number",
 					"default": 0.45,
 					"description": "Set the brightness value for the glow effect. 0.0 is fully transparent and 1.0 is fully bright"
 				},
-				"synthwave84.disableGlow": {
+				"iu.disableGlow": {
 					"type": "boolean",
 					"default": false,
-					"description": "Disable the glow effect, but show Synthwave '84 editor chrome updates"
+					"description": "Disable the glow effect"
 				}
 			}
 		}
